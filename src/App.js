@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Card from "./components/Card";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Carregando a sua simulação.
-        </p>
-      
-      </header>
+      <h1>Projeto Redux</h1>
+      <div className="linha">
+        <Card />
+      </div>
+      <div className="linha">
+        <Card />
+      </div>
     </div>
   );
 }
