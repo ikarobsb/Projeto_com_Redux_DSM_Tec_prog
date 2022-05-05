@@ -1,0 +1,17 @@
+.Intervalo input {
+  font-size: 1.8rem;
+  margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #6C0505;
+    color: #fff;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s;
+    
+}
+.Intervalo input:focus {
+    box-shadow: 0px 0px 10px rgb(43, 1, 1)
+}
