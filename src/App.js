@@ -7,22 +7,28 @@ import Sorteio from "./components/Sorteio";
 
 
 function App() {
+
   return (
     <div className="App">
       <h1>Projeto Redux</h1>
       <div className="linha">
-        <Intervalo />
+        <Intervalo></Intervalo>
       </div>
       <div className="linha">
       
-      <Media />
+      <Media></Media>
+
       
-      <Soma />
+      <Soma></Soma>
       
-      <Sorteio />
+      <Sorteio></Sorteio>
       </div>
     </div>
+
   );
+  
 }
+
+
 
 export default App;
